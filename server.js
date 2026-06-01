@@ -32,7 +32,7 @@ app.use("/api/leave", leaveRouter)
 app.use("/api/payslips", payslipRouter)
 app.use("/api/dashboard", dashboardRouter)
 
-app.use("/app/inngest", serve({ client: inngest, functions }))
+app.use("/api/inngest", serve({ client: inngest, functions }))
 //EMS_db_user
 //PeiFuFl7Y5UZlfNJ
 
